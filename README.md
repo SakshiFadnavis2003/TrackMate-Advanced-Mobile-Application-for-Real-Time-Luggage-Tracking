@@ -70,10 +70,6 @@ TrackMate/
 3. **Circuit Schematics**:
    - Detailed circuit schematics can be found in the `hardware/Circuit_Schematics/` directory.
 
-## Documentation
-
-- **[API Documentation](documentation/API_Documentation/)**: Detailed API documentation for the app’s backend services.
-- **[User Manual](documentation/User_Manual/)**: Guide for end-users on how to navigate and utilize the application features.
 
 ## License
 
