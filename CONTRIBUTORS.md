@@ -15,4 +15,4 @@
 - Designed and implemented the user interface and user experience for the mobile app.
 - Ensured the frontend interacted effectively with the backend and hardware components.
 
-  We worked together to design, develop, and test this project.
+We worked together to design, develop, and test this project.
