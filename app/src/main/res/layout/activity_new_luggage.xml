@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_file">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".NewLuggage"
+        tools:layout_editor_absoluteX="-30dp"
+        tools:layout_editor_absoluteY="-313dp">
+
+        <!-- Text: Hello user! -->
+        <TextView
+            android:id="@+id/textViewHelloUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="40dp"
+            android:text="Hello user!"
+            android:textColor="#101010"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:fontFamily="times new roman"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_below="@id/textViewHelloUser"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/divider" />
+
+
+        <!-- Text: Make your journey stress-free. Admit your bag to our community and you're done -->
+        <TextView
+            android:id="@+id/textViewSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewHelloUser"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="50dp"
+            android:text="Make your journey stress-free. Admit your bag to our community and you're done"
+            android:textSize="22sp"
+            android:textColor = "#0B0A0A"
+            />
+
+        <!-- Button: +Add luggage -->
+        <Button
+            android:id="@+id/buttonAddLuggage"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewSubtitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button"
+            android:backgroundTint="@null"
+            android:text="+Add luggage"
+            android:textColor="#F6EEEE"
+            android:textSize="17sp"/>
+
+
+        <!-- Text: Already Registered? -->
+
+        <!-- Link: check here! -->
+
+        <TextView
+            android:id="@+id/textViewAlreadyRegistered"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_below="@id/buttonAddLuggage"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginBottom="308dp"
+            android:text="If you have previously made an entry: "
+            android:textColor="#0B0A0A"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewCheckHere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewAlreadyRegistered"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="-320dp"
+            android:layout_marginBottom="300dp"
+            android:text="Check here!"
+            android:textColor="#2A3A95"
+            android:textSize="18sp" />
+
+
+
+        <TextView
+            android:id="@+id/textViewAnyDoubts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buttonAddLuggage"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="106dp"
+            android:layout_marginBottom="272dp"
+            android:text="Still got doubts? "
+            android:textColor = "#0B0A0A"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewHeadtoSupport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewAnyDoubts"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="-270dp"
+            android:layout_marginBottom="410dp"
+            android:text="Head to Support!"
+            android:textSize="18sp"
+            android:textColor="#2A3A95"/>
+
+        <ImageView
+            android:id="@+id/imageViewSuitcase"
+            android:layout_width="242dp"
+            android:layout_height="185dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="532dp"
+            android:layout_marginEnd="-5dp"
+            android:src="@drawable/destination" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

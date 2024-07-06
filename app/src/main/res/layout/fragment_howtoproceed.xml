@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_file">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".HowToProceed">
+
+        <!-- Heading: "Steps to follow:" -->
+        <TextView
+            android:id="@+id/textViewStepsHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Steps to follow"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:textColor = "#0C0C0C"
+            android:fontFamily="times new roman"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_below="@id/textViewStepsHeading"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/divider" />
+
+
+        <!-- Step 1 -->
+        <TextView
+            android:id="@+id/textViewStep1"
+            android:layout_width="338dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewStepsHeading"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="60dp"
+            android:text="1) After sign up, make separate entries for your individual bags"
+            android:textColor="#070707"
+            android:textSize="18sp" />
+
+        <!-- Step 2 -->
+
+        <TextView
+            android:id="@+id/textViewStep2"
+            android:layout_width="338dp"
+            android:layout_height="wrap_content"
+            android:text="2) Unique QR will be generated for each of your entities registered"
+            android:layout_below="@id/textViewStep1"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="24dp"
+            android:textColor="#0E0E0E"
+            android:textSize="18sp"
+            android:layout_marginLeft="60dp"
+            android:layout_centerHorizontal="true"/>
+
+        <!-- Step 3 -->
+        <TextView
+            android:id="@+id/textViewStep3"
+            android:layout_width="338dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewStep2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="15dp"
+            android:text="3) Attach that on your luggage which comes with a tracker to help us for tracking when lost"
+            android:textColor="#0C0C0C"
+            android:textSize="18sp" />
+
+        <!-- Text: Still got doubts? Head to FAQs or contact us -->
+        <TextView
+            android:id="@+id/textViewDoubts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="330dp"
+            android:text="Still got doubts? Head to FAQs or contact us"
+            android:textColor="#2A3A95"
+            android:textSize="15sp"/>
+
+        <ImageView
+            android:id="@+id/imageViewSuitcase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="406dp"
+            android:layout_marginEnd="-155dp"
+            android:src="@drawable/suitcase" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

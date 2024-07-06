@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_file">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RegisterActivity">
+
+        <!-- Text: Ensure your luggage security by signing up -->
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ensure your luggage security by signing up"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="40dp"
+            android:textColor = "#0B0A0A"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_below="@id/textViewTitle"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/divider" />
+        <!-- Text: Just basics and you are good to go -->
+        <TextView
+            android:id="@+id/textViewSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Just basics and you are good to go"
+            android:textSize="23sp"
+            android:layout_below="@id/textViewTitle"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="#373535"
+            android:layout_centerHorizontal = "true"/>
+
+        <!-- Form -->
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="301dp"
+            android:layout_height="40dp"
+            android:hint="  Name"
+            android:inputType="text"
+            android:textColorHint="@color/black"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@id/textViewSubtitle"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bordered_text"
+            android:layout_centerHorizontal = "true"
+            />
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="301dp"
+            android:layout_height="40dp"
+            android:hint="  Email"
+            android:inputType="text"
+            android:textColorHint="@color/black"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@id/editTextName"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bordered_text"
+            android:layout_centerHorizontal = "true"
+            />
+
+        <EditText
+            android:id="@+id/editTextContactNo"
+            android:layout_width="301dp"
+            android:layout_height="40dp"
+            android:hint="  ContactNo"
+            android:inputType="text"
+            android:textColorHint="@color/black"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@id/editTextEmail"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bordered_text"
+            android:layout_centerHorizontal = "true"
+            />
+
+        <EditText
+            android:id="@+id/editTextUsername"
+            android:layout_width="301dp"
+            android:layout_height="40dp"
+            android:hint="  Username"
+            android:inputType="text"
+            android:textColorHint="@color/black"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@id/editTextContactNo"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bordered_text"
+            android:layout_centerHorizontal = "true"
+            />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="301dp"
+            android:layout_height="40dp"
+            android:hint="  Password"
+            android:inputType="text"
+            android:textColorHint="@color/black"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@id/editTextUsername"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bordered_text"
+            android:layout_centerHorizontal = "true"
+            />
+
+        <EditText
+            android:id="@+id/editTextConfirmPassword"
+            android:layout_width="301dp"
+            android:layout_height="40dp"
+            android:hint="  Confirm Password"
+            android:inputType="text"
+            android:textColorHint="@color/black"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@id/editTextPassword"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bordered_text"
+            android:layout_centerHorizontal = "true"
+            />
+
+
+        <!-- Submit Button -->
+
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:background="@drawable/button"
+            android:text="Submit"
+            android:textColor="@color/black"
+            android:backgroundTint="@null"
+            android:layout_below="@id/editTextConfirmPassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp"/>
+
+
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

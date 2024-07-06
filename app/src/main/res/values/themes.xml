@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TrackMate" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/button_colour</item>
+        <item name="buttonStyle">@style/CustomButton</item>
+    </style>
+
+    <style name="Theme.TrackMate" parent="Base.Theme.TrackMate" />
+
+    <style name="Theme.TrackMate.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.TrackMate.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.TrackMate.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Define a custom button style -->
+    <style name="CustomButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button</item>
+        <!-- Add any other custom button attributes here -->
+    </style>
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_file">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SupportActivity">
+
+        <TextView
+            android:id="@+id/textViewHelloUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="40dp"
+            android:text="Support"
+            android:textColor="#131313"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:fontFamily="times new roman"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_below="@id/textViewHelloUser"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/divider" />
+
+
+        <!-- Text: So, we know you are worried about your belongings and we are here with a solution -->
+        <TextView
+            android:id="@+id/textViewIntro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="So, we know you are worried about your belongings and we are here with a solution"
+            android:textSize="27sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="60dp"
+            android:textColor = "#0B0A0A"
+            />
+
+        <!-- Link to How to proceed? -->
+        <TextView
+            android:id="@+id/textViewHowToProceed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How to proceed?"
+            android:textColor="#2A3A95"
+            android:layout_below="@id/textViewIntro"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"/>
+
+        <!-- Link to FAQs -->
+        <TextView
+            android:id="@+id/textViewFAQs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FAQs"
+            android:textColor="#2A3A95"
+            android:layout_below="@id/textViewHowToProceed"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"/>
+
+        <!-- Link to Contact Us -->
+        <TextView
+            android:id="@+id/textViewContactUs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Us"
+            android:textColor="#2A3A95"
+            android:layout_below="@id/textViewFAQs"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"/>
+
+        <!-- Text: We ensure transparency. Do connect with us after you find us trustworthy -->
+        <TextView
+            android:id="@+id/textViewTransparency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We ensure transparency."
+            android:textSize="20sp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="230dp"
+            android:layout_marginLeft="30dp"
+            android:textColor = "#0B0A0A"
+            />
+
+        <TextView
+            android:id="@+id/textViewConnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewTransparency"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="-220dp"
+            android:layout_marginBottom="280dp"
+            android:text="Do connect with us after you find us trustworthy"
+            android:textColor = "#0B0A0A"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/imageViewSuitcase"
+            android:layout_width="455dp"
+            android:layout_height="222dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="509dp"
+            android:layout_marginEnd="-142dp"
+            android:src="@drawable/woman" />
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

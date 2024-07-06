@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_file">
+
+
+    <!-- Toolbar -->
+
+
+    <!-- Text "You can get in touch with us through below platforms. our team will reach out to you as soon as it would be possible" -->
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- TextView "Contact Us" -->
+            <TextView
+                android:id="@+id/textViewContactUs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:text="Contact Us"
+                android:textColor="#100F0F"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:fontFamily="times new roman"/>
+
+            <!-- Border View -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@id/textViewContactUs"
+                android:layout_marginTop="100dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/divider" />
+
+        </FrameLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/textViewInfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Reach out and we'll be in touch before you know it!"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="-20dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+    <!-- Box with header "Customer Support" -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewCustomerSupport"
+        android:layout_width="341dp"
+        android:layout_height="122dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        android:layout_marginLeft="30dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewInfo">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <!-- Header "Customer Support" -->
+            <TextView
+                android:id="@+id/textViewCustomerSupportHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Customer Support"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <!-- Contact number -->
+            <TextView
+                android:id="@+id/textViewContactNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Contact Number: +1234567890"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+
+            <!-- Email address -->
+            <TextView
+                android:id="@+id/textViewEmailAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email Address: contact@example.com"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <!-- Box with header "Social Media" -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewSocialMedia"
+        android:layout_width="345dp"
+        android:layout_height="309dp"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardViewCustomerSupport"
+        android:layout_marginBottom="30dp">
+
+
+        <LinearLayout
+            android:layout_width="348dp"
+            android:layout_height="310dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <!-- Header "Social Media" -->
+
+
+
+
+            <!-- Instagram -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="75dp"
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/ic_instagram" />
+
+
+                <TextView
+                    android:layout_width="73dp"
+                    android:layout_height="26dp"
+                    android:text="Instagram"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+            <!-- Facebook -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="75dp"
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/ic_facebook" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Facebook"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="75dp"
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/ic_x" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Twitter"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

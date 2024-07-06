@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity"
+android:background="@drawable/bg">
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardViewCustomerSupport"
+    android:layout_width="370dp"
+    android:layout_height="120dp"
+    android:layout_centerHorizontal="true"
+    android:layout_margin="16dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginEnd="16dp"
+    android:backgroundTint="#EBF4766C"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="30dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Have a stress-free journey"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="with TRACKMATE!"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+<TextView
+    android:id="@+id/textViewSubtitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginLeft="60dp"
+    android:layout_marginTop="170dp"
+    android:text="Track, trace, and travel!"
+    android:textSize="25sp"
+    android:textColor = "#0B0A0A"
+    />
+
+<TextView
+    android:id="@+id/textViewSubtitle2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginLeft="60dp"
+    android:layout_marginTop="10dp"
+    android:text="Our app ensures your luggage\n       is always on the radar."
+    android:textSize="22sp"
+    android:textColor = "#0B0A0A"
+    android:layout_below="@+id/textViewSubtitle"
+    />
+
+<Button
+    android:id="@+id/login_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="130dp"
+    android:layout_marginTop="330dp"
+    android:background="@drawable/button"
+    android:text="Proceed"
+    android:textColor="@color/black"
+    android:backgroundTint="#EBF4766C"/>
+
+<ImageView
+    android:id="@+id/imageViewSuitcase"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:layout_marginTop="406dp"
+    android:layout_marginEnd="-120dp"
+    android:src="@drawable/travel" />
+
+
+
+
+
+
+</RelativeLayout>

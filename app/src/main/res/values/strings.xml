@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TrackMate</string>
+    <string name="title_activity_main_page">MainPage</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Track Mate</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_contactus">Contact Us</string>
+    <string name="menu_faqs">Frequently Asked Questions</string>
+    <string name="menu_howtoproceed">How To Proceed?</string>
+    <string name="menu_support">Support</string>
+    <string name="my_app_api_key">AIzaSyBgKzKxtADHc4fNpTeSrrVkox3QQCb4GyY</string>
+    <string name="title_activity_user_page">UserPage</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_activity_display_info">DisplayInfo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

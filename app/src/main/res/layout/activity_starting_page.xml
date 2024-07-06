@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".StartingPage"
+    android:background="@drawable/login_page_border">
+
+    <TextView
+        android:id="@+id/welcome_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="35dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="times new roman"
+        android:text="Welcome to TrackMate!"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_below="@id/welcome_textview"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/divider" />
+
+    <TextView
+        android:id="@+id/message_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome_textview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="16dp"
+        android:text='          "Enjoy sightseeing,\n your luggage is safe with us"'
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/divider" />
+
+
+    <LinearLayout
+        android:id="@+id/login_form"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/message_textview"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="33dp"
+        android:orientation="vertical">
+
+
+        <!-- Input fields for login id and password -->
+        <EditText
+            android:id="@+id/login_id_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="  Login ID"
+            android:inputType="text"
+            android:textColorHint="@color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bordered_text"
+            />
+
+
+        <!-- Submit button -->
+
+
+        <EditText
+            android:id="@+id/password_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bordered_text"
+            android:hint="  Password"
+            android:inputType="textPassword"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="40dp"
+            android:text="Submit"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+
+            />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/new_user_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_form"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="New user?"
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+
+
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/new_user_textview"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="-32dp"
+        android:layout_toEndOf="@+id/new_user_textview"
+        android:background="@drawable/signup"
+        android:text="Sign Up"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"/>
+
+<!--    <ImageView-->
+<!--        android:layout_width="81dp"-->
+<!--        android:layout_height="84dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginStart="30dp"-->
+<!--        android:layout_marginBottom="40dp"-->
+<!--        android:src="@drawable/faq" />-->
+
+
+</RelativeLayout>

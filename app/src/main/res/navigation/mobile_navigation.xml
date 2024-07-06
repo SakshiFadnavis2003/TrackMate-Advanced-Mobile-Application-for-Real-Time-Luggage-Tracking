@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.trackmate.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_contactus"
+        android:name="com.example.trackmate.ui.ContactUs.ContactUsFragment"
+        android:label="@string/menu_contactus"
+        tools:layout="@layout/fragment_contactus" />
+
+    <fragment
+        android:id="@+id/nav_faqs"
+        android:name="com.example.trackmate.faqs"
+        android:label="@string/menu_faqs"
+        tools:layout="@layout/fragment_faqs" />
+
+    <fragment
+        android:id="@+id/nav_howtoproceed"
+        android:name="com.example.trackmate.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_howtoproceed"
+        tools:layout="@layout/fragment_howtoproceed" />
+
+    <fragment
+        android:id="@+id/nav_support"
+        android:name="com.example.trackmate.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_support"
+        tools:layout="@layout/fragment_support" />
+</navigation>

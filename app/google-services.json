@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "369478628953",
+    "project_id": "stone-timing-417613",
+    "storage_bucket": "stone-timing-417613.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369478628953:android:9d82cbdfd9f185d4abe348",
+        "android_client_info": {
+          "package_name": "com.example.trackmate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0FYD13-NZxqKCFd_uN4POC5jfEL5nB_c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

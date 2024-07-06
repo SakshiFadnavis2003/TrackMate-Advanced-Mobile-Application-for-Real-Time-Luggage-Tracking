@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NavigationEditorTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize the color used for the selected item in the navigation graph -->
+        <item name="android:colorAccent">@color/darkpeach</item>
+    </style>
+
+</resources>

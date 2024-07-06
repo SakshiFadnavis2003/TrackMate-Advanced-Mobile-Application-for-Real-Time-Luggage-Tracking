@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <size android:height="10dp" />
+    <solid android:color="@color/faq_item_background_color" />
+</shape>
