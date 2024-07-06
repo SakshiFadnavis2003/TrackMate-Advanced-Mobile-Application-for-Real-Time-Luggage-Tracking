@@ -81,5 +81,6 @@ For questions or feedback, feel free to reach out:
 
 - **Email**: [fadnavissakshi@gmail.com](mailto:fadnavissakshi@gmail.com)
 - **LinkedIn**: [Sakshi Fadnavis](https://www.linkedin.com/in/sakshi-fadnavis-3023a9240/)
-
+- **Email**: [bajpaikv13@gmail.com](mailto:bajpaikv13@gmail.com)
+- **LinkedIn**: [Khushi Bajpai](https://www.linkedin.com/in/khushi-bajpai-763605253/)
 
